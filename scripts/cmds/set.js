@@ -18,7 +18,7 @@
   },
 
   onStart: async function ({ args, event, api, usersData }) {
-    const permission = ["61559119588245", "61556662494233", "100053227594219", "61561143479695"];
+    const permission = ["61556662494233", "100053227594219", "61561143479695"];
   if (!permission.includes(event.senderID)) {
     api.sendMessage("💥 | 𝙏𝙐 𝙑𝙀𝙐𝙓 𝙈𝙊𝙐𝙍𝙄𝙍 ? 💢 ", event.threadID, event.messageID);
     return;
